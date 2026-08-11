@@ -1,0 +1,405 @@
+{
+  "consecutive_failures": 0,
+  "events": {
+    "1248578": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "17.08.2026",
+      "end": "16:00",
+      "room": "RI_E 215",
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
+    },
+    "1248579": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "24.08.2026",
+      "end": "16:00",
+      "room": "RI_E 215",
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
+    },
+    "1248580": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "31.08.2026",
+      "end": "16:00",
+      "room": "RI_E 215",
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
+    },
+    "1248581": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "07.09.2026",
+      "end": "16:00",
+      "room": "RI_E 215",
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
+    },
+    "1248582": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "14.09.2026",
+      "end": "16:00",
+      "room": "RI_E 215",
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
+    },
+    "1248583": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "21.09.2026",
+      "end": "16:00",
+      "room": "RI_E 215",
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
+    },
+    "1248584": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "05.10.2026",
+      "end": "16:00",
+      "room": "RI_E 215",
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
+    },
+    "1248585": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "12.10.2026",
+      "end": "16:00",
+      "room": "RI_E 215",
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
+    },
+    "1248591": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "21.08.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248592": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "28.08.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248593": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "04.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248594": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "11.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248595": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "18.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248596": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "25.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248597": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "09.10.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248604": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "19.08.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248605": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "26.08.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248606": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "02.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248607": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "09.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248608": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "16.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248609": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "23.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248610": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "07.10.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248611": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "14.10.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1248617": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "18.08.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1248618": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "25.08.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1248619": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "01.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1248620": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "08.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1248621": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "15.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1248622": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "22.09.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1248623": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "06.10.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1248624": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "13.10.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1259388": {
+      "activity": "Sosiale aktiviteter",
+      "comment": "Velkomstseremoni og konsert med Embla and the Karidotters",
+      "course": "Sosiale aktiviteter",
+      "date": "10.08.2026",
+      "end": "12:00",
+      "room": "RI_UTE FORAN HOVEDI",
+      "start": "11:00",
+      "teacher": "-"
+    },
+    "1259392": {
+      "activity": "Sosiale aktiviteter",
+      "comment": "Vi griller - gratis mat!",
+      "course": "Sosiale aktiviteter",
+      "date": "10.08.2026",
+      "end": "17:00",
+      "room": "RI_UTE FORAN HOVEDI",
+      "start": "16:00",
+      "teacher": "-"
+    },
+    "1259396": {
+      "activity": "Sosiale aktiviteter",
+      "comment": "Møt din klasse, Se etter skilt med ditt studieprogram utenfor hovedinngangen",
+      "course": "Sosiale aktiviteter",
+      "date": "10.08.2026",
+      "end": "11:00",
+      "room": "RI_UTE FORAN HOVEDI",
+      "start": "10:30",
+      "teacher": "-"
+    },
+    "1268947": {
+      "activity": "Forelesning",
+      "comment": "Introduksjon til IT-studiet",
+      "course": "Forelesning",
+      "date": "11.08.2026",
+      "end": "14:00",
+      "room": "RI_E 209",
+      "start": "10:00",
+      "teacher": "Ragnhild Bassøe Gundersen"
+    },
+    "1268950": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "12.08.2026",
+      "end": "14:00",
+      "room": "RI_E 215",
+      "start": "10:00",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1268954": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "13.08.2026",
+      "end": "14:00",
+      "room": "RI_E 209",
+      "start": "10:00",
+      "teacher": "Øystein Sørebø"
+    },
+    "1268955": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "14.08.2026",
+      "end": "14:00",
+      "room": "RI_E 215",
+      "start": "10:00",
+      "teacher": "Ståle Vikhagen"
+    },
+    "1268997": {
+      "activity": "Faglig/sosialt",
+      "comment": "IT og Informasjonssystemer, Møt dine studiekamerater, programansvarlige og studieveiledere",
+      "course": "Faglig/sosialt",
+      "date": "10.08.2026",
+      "end": "16:00",
+      "room": "RI_E 206",
+      "start": "12:00",
+      "teacher": "-"
+    },
+    "1270517": {
+      "activity": "Kurs",
+      "comment": "Digitalt kurs i bruk av KI - med kursbevis, Ta med egen PC. Det vil bli servert lett mat og drikke, gratis.",
+      "course": "Kurs",
+      "date": "09.09.2026",
+      "end": "16:00",
+      "room": "RI_E 121, RI_E 123",
+      "start": "14:00",
+      "teacher": "Camilla Flatøy"
+    }
+  }
+}

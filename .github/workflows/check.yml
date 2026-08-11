@@ -1,0 +1,49 @@
+name: Check TimeEdit schedule
+
+on:
+  schedule:
+    # GitHub cron is UTC. Norway is UTC+1 (winter) / UTC+2 (summer).
+    # Morning burst: every 15 min 04:00-06:45 UTC (= 06:00-08:45 CEST / 05:00-07:45 CET)
+    - cron: "*/15 4-6 * * *"
+    # Baseline: hourly 07:00-17:00 UTC
+    - cron: "0 7-17 * * *"
+    # Evening check (catches changes posted the night before)
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: schedule-check
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Check schedule
+        id: check
+        env:
+          TIMEEDIT_URL: "https://cloud.timeedit.net/usn/web/publikk/ri1X5074f9506fQQ6YZYQQ8Y84y1Z106757.html"
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python check_schedule.py
+
+      - name: Commit updated snapshot
+        if: always()
+        run: |
+          git config user.name "schedule-bot"
+          git config user.email "actions@github.com"
+          git add state/snapshot.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update schedule snapshot"
+            git pull --rebase && git push
+          fi

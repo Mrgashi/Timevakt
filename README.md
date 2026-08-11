@@ -7,7 +7,7 @@ Watches a TimeEdit schedule (USN, Campus Hønefoss) and pushes a phone notificat
 `check_schedule.py` fetches the schedule's `.json` export, compares it to the last snapshot in `state/snapshot.json`, sends one ntfy push per change, and saves the new snapshot. GitHub Actions ([.github/workflows/check.yml](.github/workflows/check.yml)) runs it on a cron schedule and commits the snapshot back, so no external database is needed.
 
 Check cadence (Norwegian local time, cron is defined in UTC):
-- every 15 min from ~06:00 to ~08:45 (morning burst — warns before you travel)
+- every 5 min from 06:00 to 07:30 Oslo time, DST-safe (morning burst — warns before you travel)
 - hourly during the day
 - one evening check around 21:00
 

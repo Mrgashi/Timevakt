@@ -99,6 +99,31 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False, sort_keys=True) + "\n")
 
 
+WINDOW_WARN_DAYS = 14  # warn when the schedule window ends this soon
+WINDOW_WARN_REPEAT_DAYS = 3  # repeat the warning at most this often
+
+
+def check_window(state: dict, events: dict) -> None:
+    if not events:
+        return
+    last_day = max(parse_date(ev["date"]) for ev in events.values())
+    days_left = (last_day - date.today()).days
+    if days_left > WINDOW_WARN_DAYS:
+        state.pop("last_window_warning", None)
+        return
+    prev = state.get("last_window_warning")
+    if prev and (date.today() - date.fromisoformat(prev)).days < WINDOW_WARN_REPEAT_DAYS:
+        return
+    notify(
+        "Schedule window running out",
+        f"The TimeEdit link only has events until {last_day:%d.%m.%Y} ({days_left} days away). "
+        "After that the checker is blind — check TimeEdit and update the link if more teaching is published.",
+        "high",
+        "hourglass",
+    )
+    state["last_window_warning"] = date.today().isoformat()
+
+
 def diff_and_notify(old: dict, new: dict) -> None:
     for eid, ev in new.items():
         prev = old.get(eid)
@@ -148,6 +173,7 @@ def main() -> int:
     else:
         diff_and_notify(state["events"], events)
         print(f"Checked {len(events)} events against snapshot of {len(state['events'])}.")
+    check_window(state, events)
     state["events"] = events
     save_state(state)
     return 0

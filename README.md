@@ -15,7 +15,7 @@ The first run just saves a baseline and stays silent. If fetching fails twice in
 
 ## Setup
 
-1. Install the **ntfy** app on your phone and subscribe to the secret topic (stored as the `NTFY_TOPIC` repo secret on GitHub — Settings → Secrets and variables → Actions).
+1. Install the **ntfy** app on your phone and subscribe to the secret topic (stored as the `NTFY_TOPIC` repo secret on GitHub — Settings → Secrets and variables → Actions). `NTFY_TOPIC` can hold several comma-separated topics; every notification is pushed to each of them.
 2. That's it. Trigger a manual check anytime from the Actions tab → "Check TimeEdit schedule" → Run workflow.
 
 ## Running locally

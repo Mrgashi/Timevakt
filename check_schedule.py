@@ -3,7 +3,7 @@
 
 Env vars:
   TIMEEDIT_URL  - TimeEdit schedule view URL (.html or .json)
-  NTFY_TOPIC    - ntfy.sh topic to push notifications to
+  NTFY_TOPIC    - ntfy.sh topic(s) to push notifications to, comma-separated
   STATE_FILE    - path to snapshot file (default: state/snapshot.json)
 """
 
@@ -16,7 +16,7 @@ from pathlib import Path
 import requests
 
 TIMEEDIT_URL = os.environ["TIMEEDIT_URL"]
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "")
+NTFY_TOPICS = [t.strip() for t in os.environ.get("NTFY_TOPIC", "").split(",") if t.strip()]
 STATE_FILE = Path(os.environ.get("STATE_FILE", "state/snapshot.json"))
 
 CANCEL_MARKERS = ("avlyst", "utgår", "utgaar", "cancelled", "canceled", "innstilt", "inställd")
@@ -29,18 +29,19 @@ WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 def notify(title: str, message: str, priority: str = "default", tags: str = "") -> None:
     print(f"[notify:{priority}] {title}: {message}")
-    if not NTFY_TOPIC:
+    if not NTFY_TOPICS:
         print("  (NTFY_TOPIC not set, skipping push)")
         return
-    try:
-        requests.post(
-            f"https://ntfy.sh/{NTFY_TOPIC}",
-            data=message.encode("utf-8"),
-            headers={"Title": title, "Priority": priority, "Tags": tags},
-            timeout=20,
-        ).raise_for_status()
-    except requests.RequestException as e:
-        print(f"  failed to send ntfy push: {e}", file=sys.stderr)
+    for topic in NTFY_TOPICS:
+        try:
+            requests.post(
+                f"https://ntfy.sh/{topic}",
+                data=message.encode("utf-8"),
+                headers={"Title": title, "Priority": priority, "Tags": tags},
+                timeout=20,
+            ).raise_for_status()
+        except requests.RequestException as e:
+            print(f"  failed to send ntfy push to {topic}: {e}", file=sys.stderr)
 
 
 def fetch_events() -> dict:

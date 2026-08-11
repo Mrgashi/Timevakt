@@ -18,7 +18,7 @@ SIMULATE=0
 
 for arg in "$@"; do
     case "$arg" in
-        --notify)   NTFY_TOPIC="timeedit-usn-41ca806ea4f87b60" ;;
+        --notify)   NTFY_TOPIC="ETB217791" ;;
         --simulate) SIMULATE=1 ;;
         *) echo "unknown option: $arg" >&2; exit 2 ;;
     esac

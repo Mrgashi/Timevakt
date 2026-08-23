@@ -1,16 +1,6 @@
 {
   "consecutive_failures": 0,
   "events": {
-    "1248578": {
-      "activity": "Forelesning",
-      "comment": "",
-      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
-      "date": "17.08.2026",
-      "end": "16:00",
-      "room": "RI_E 215",
-      "start": "12:15",
-      "teacher": "Øystein Sørebø"
-    },
     "1248579": {
       "activity": "Forelesning",
       "comment": "",
@@ -101,15 +91,15 @@
       "start": "12:15",
       "teacher": "Øystein Sørebø"
     },
-    "1248591": {
+    "1248588": {
       "activity": "Forelesning",
       "comment": "",
-      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
-      "date": "21.08.2026",
-      "end": "12:00",
+      "course": "Informasjonssystemer, Hønefoss, Campus Hønefoss. INF1000_2026 HØST, Hønefoss",
+      "date": "02.11.2026",
+      "end": "16:00",
       "room": "RI_E 215",
-      "start": "08:15",
-      "teacher": "Ståle Vikhagen"
+      "start": "12:15",
+      "teacher": "Øystein Sørebø"
     },
     "1248592": {
       "activity": "Forelesning",
@@ -191,11 +181,11 @@
       "start": "08:15",
       "teacher": "Ståle Vikhagen"
     },
-    "1248604": {
+    "1248601": {
       "activity": "Forelesning",
       "comment": "",
-      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
-      "date": "19.08.2026",
+      "course": "Grunnleggende programmering 1, Campus Hønefoss, Campus Hønefoss. PRG1000_2026 HØST,Campus Høne",
+      "date": "06.11.2026",
       "end": "12:00",
       "room": "RI_E 215",
       "start": "08:15",
@@ -291,15 +281,15 @@
       "start": "08:15",
       "teacher": "Ståle Vikhagen"
     },
-    "1248617": {
+    "1248614": {
       "activity": "Forelesning",
       "comment": "",
-      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
-      "date": "18.08.2026",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "04.11.2026",
       "end": "12:00",
       "room": "RI_E 215",
       "start": "08:15",
-      "teacher": "Salah Uddin Ahmed"
+      "teacher": "Ståle Vikhagen"
     },
     "1248618": {
       "activity": "Forelesning",
@@ -386,6 +376,16 @@
       "comment": "",
       "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
       "date": "27.10.2026",
+      "end": "12:00",
+      "room": "RI_E 215",
+      "start": "08:15",
+      "teacher": "Salah Uddin Ahmed"
+    },
+    "1248627": {
+      "activity": "Forelesning",
+      "comment": "",
+      "course": "Webutvikling og HCI, Hønefoss, Campus Hønefoss. WEB1100_2026 HØST, Hønefoss",
+      "date": "03.11.2026",
       "end": "12:00",
       "room": "RI_E 215",
       "start": "08:15",

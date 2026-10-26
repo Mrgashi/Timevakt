@@ -120,6 +120,16 @@
       "room": "RI_E 215",
       "start": "08:15",
       "teacher": "Salah Uddin Ahmed"
+    },
+    "1297707": {
+      "activity": "Forelesning",
+      "comment": "Arbeidsøkt arbeidskrav 2",
+      "course": "Database 1, Hønefoss, Campus Hønefoss. DAT1000_2026 HØST, Hønefoss",
+      "date": "27.10.2026",
+      "end": "16:00",
+      "room": "RI_E 206",
+      "start": "12:15",
+      "teacher": "Ståle Vikhagen"
     }
   }
 }
